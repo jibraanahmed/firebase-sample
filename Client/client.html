@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Sample Working</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from "firebase/analytics";
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+    apiKey: "AIzaSyAXMJHA1CLkHlHtgXhzqcm_WoTphPtfK18",
+    authDomain: "notification-35523.firebaseapp.com",
+    projectId: "notification-35523",
+    storageBucket: "notification-35523.appspot.com",
+    messagingSenderId: "844569970262",
+    appId: "1:844569970262:web:1c6e83eb9a13b505971df7",
+    measurementId: "G-LJH9VXEG9H"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+</script>
